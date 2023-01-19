@@ -1,0 +1,17 @@
+body{
+    font: 14px Arial, sans-serif;
+}
+.wrapper{
+    width: 360px;
+    padding: 20px;
+}
+.banner{
+    background-color:#e48c39;
+    /*position: sticky;*/
+
+    /*background: url("banner.png");*/
+
+    /*background-size:cover;*/
+    /*background-repeat: no-repeat;*/
+    /*height: 110px;*/
+}

@@ -1,0 +1,108 @@
+/*Todo Merge with main.css*/
+body{
+	background-image: url("bg.jpg");
+	background-color: #344a72;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+.banner{
+	width: 100%;
+	height: 100px;
+	position: relative;
+
+
+
+}
+
+.login-box{
+	width: 300px;
+	height: 380px;
+	background: #1c2833;
+	color: white;
+	margin: 70PX auto;
+	padding: 80px 40px;
+	border-radius: 20px;	
+	letter-spacing: 2px;
+
+}
+
+.logo{
+
+    width: 100px;
+    height:100px;
+    position: relative;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-top: 0;
+	letter-spacing: 8px;
+}
+
+label{
+	font-size: 18px; 
+	display: block;
+
+}
+
+div{
+	line-height: 35px;
+
+}
+
+
+
+input{
+	width: 100%;
+	height: 80px;
+	padding: 7px; 
+	border: none; 
+	border: 1px solid grey;
+
+}
+
+input[type="email"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	height: 20px; 
+	font-size: 16px;
+	font-color: white;
+	
+}
+
+.login-field{
+	border:none;
+	border-bottom: 1px solid #fff;
+	height: 20px;
+	font-size: 16px;
+	font-color: white;
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 20px;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+    
+}
+
+
+input[type="submit"]:hover{
+    background: blueviolet;
+}
+
+
+a{
+	color: yellow;
+}
